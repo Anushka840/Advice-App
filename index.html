@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdviceApp</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Intro Page Section -->
+    <div id="intro" class="intro">
+        <h1>Welcome to the Advice App</h1>
+        <p>📜Click the button below to start receiving advice!📜</p>
+        <button onclick="startAdvice()">Start</button>
+        <h3>Let's Go</h3>
+    </div>
+
+    <!-- Advice Page Section -->
+    <div id="advicePage" class="box" style="display:none;">
+        <button onclick="getAdvice()">Get Advice</button>
+        <img src="https://cdn-icons-png.flaticon.com/512/6546/6546704.png" alt="">
+        <h1 id="advice"></h1>
+        <p id="count"></p>
+        <button id="goBackButton" onclick="goBack()">Go Back</button>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

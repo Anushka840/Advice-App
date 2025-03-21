@@ -1,0 +1,246 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.intro {
+    text-align: center;
+    margin-top: 10rem;
+    height: 27rem;
+    width: 35rem;
+    background-color: rgba(224, 220, 220, 0.237);
+    margin-top: 2.5rem;
+    margin-left: 32rem;
+    border-radius: 0 3rem;
+    border-style: solid;
+    border-image-width: 45px;
+    border-image-slice: 90;
+    border-image-source:url(https://marketplace.canva.com/EAGLcUK-zT4/1/0/1131w/canva-pink-illustrative-math-page-border-G4B3Wk9XKC4.jpg);
+}
+.intro h1{
+    margin-top: 5rem;
+    font-family: cursive;
+    text-shadow: 0 6px 6px grey;
+}
+.intro p{
+    margin-top: 2rem;
+    color: rgb(163, 46, 136);
+    text-decoration-line:overline;
+    font-size: 1rem;
+    font-family:cursive;
+}
+.intro button{
+    margin-top: 5.5rem;
+    margin-left: 0.4rem;
+}  
+h3{
+    margin-top: -7rem;
+    font-size: 1.6rem;
+    font-family:cursive;
+    color: rgb(205, 72, 161);
+    text-shadow: 0 3px 1px rgb(175, 175, 175);
+}
+.box {
+    height: 30rem;
+    width: 35rem;
+    background-color: rgb(250, 240, 241);
+    margin-top: 2.5rem;
+    margin-left: 32rem;
+    border-radius: 0 3rem;
+    border-style: solid;
+    border-image-width: 40px;
+    border-image-slice: 90;
+    border-image-source: url(https://i.pinimg.com/736x/ed/f4/01/edf40184552f1696c092cf6bf7c8c83d.jpg);
+}
+
+button {
+    margin-top: 4rem;
+    height: 3rem;
+    width: 6.8rem;
+    background-color: rgb(235, 190, 198);
+    font-family: cursive;
+    border-radius: 25% 0 25% 0;
+    border: 0.5px solid rgb(190, 89, 106);
+    font-size: 1rem;
+    margin-left: 14.5rem;
+    box-shadow: 7px 7px rgb(222, 211, 219);
+}
+
+#advice {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 2.5rem;
+    justify-content: space-around;
+    color: rgb(158, 52, 70);
+    font-family: cursive;
+    text-shadow: 0 0 15px gray;
+    padding: 1.2rem;
+}
+
+#count {
+    font-size: 0.8rem;
+    margin-left: 10rem;
+    margin-top: 2.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(135, 13, 135);
+    text-decoration:overline;
+}
+
+img {
+    height: 2.6rem;
+    margin-left: 0.5rem;
+}
+
+#goBackButton {
+    margin-top: 5rem;
+    font-family: cursive;
+    background-color: rgb(240, 174, 193);
+    font-size: 1rem;
+    border-radius: 25% 0 25% 0;
+    padding: 0.5rem 1rem;
+    margin-left: 15rem;
+    box-shadow: 7px 7px rgb(222, 211, 219);
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(to right, #ffe4e1, #fadadd);
+    font-family: 'Poppins', sans-serif;
+}
+.intro {
+    text-align: center;
+    margin-top: 10rem;
+    height: 27rem;
+    width: 35rem;
+    background-color: rgba(224, 220, 220, 0.237);
+    margin-top: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0 3rem;
+    border-style: solid;
+    border-image-width: 45px;
+    border-image-slice: 90;
+    border-image-source: url(https://marketplace.canva.com/EAGLcUK-zT4/1/0/1131w/canva-pink-illustrative-math-page-border-G4B3Wk9XKC4.jpg);
+    animation: fadeIn 1.5s ease-in;
+}
+.intro h1 {
+    margin-top: 5rem;
+    font-family: cursive;
+    text-shadow: 0 6px 6px grey;
+    font-size: 2.5rem;
+    color: #8b008b;
+}
+.intro p {
+    margin-top: 2rem;
+    color: rgb(163, 46, 136);
+    text-decoration-line: overline;
+    font-size: 1.2rem;
+    font-family: cursive;
+}
+.intro button {
+    margin-top: 5.5rem;
+    margin-left: 0.4rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.intro button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px pink;
+}
+
+h3 {
+    margin-top: -7rem;
+    font-size: 1.6rem;
+    font-family: cursive;
+    color: rgb(205, 72, 161);
+    text-shadow: 0 3px 1px rgb(175, 175, 175);
+}
+
+.box {
+    height: 30rem;
+    width: 35rem;
+    background-color: rgb(250, 240, 241);
+    margin-top: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0 3rem;
+    border-style: solid;
+    border-image-width: 40px;
+    border-image-slice: 90;
+    border-image-source: url(https://i.pinimg.com/736x/ed/f4/01/edf40184552f1696c092cf6bf7c8c83d.jpg);
+    animation: slideIn 1.2s ease-out;
+}
+
+button {
+    margin-top: 4rem;
+    height: 3rem;
+    width: 6.8rem;
+    background-color: rgb(235, 190, 198);
+    font-family: cursive;
+    border-radius: 25% 0 25% 0;
+    border: 0.5px solid rgb(190, 89, 106);
+    font-size: 1rem;
+    margin-left: 14.5rem;
+    box-shadow: 7px 7px rgb(222, 211, 219);
+    cursor: pointer;
+}
+
+button:hover {
+    background: rgb(240, 128, 176);
+    box-shadow: 0 0 15px rgb(255, 182, 193);
+}
+
+#advice {
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: 2.5rem;
+    justify-content: space-around;
+    color: rgb(158, 52, 70);
+    font-family: cursive;
+    text-shadow: 0 0 15px gray;
+    padding: 1.2rem;
+}
+
+#count {
+    font-size: 0.9rem;
+    margin-top: 2.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(135, 13, 135);
+    text-decoration: overline;
+    text-align: center;
+}
+
+img {
+    height: 2.6rem;
+    margin-left: 0.5rem;
+}
+
+#goBackButton {
+    margin-top: 5rem;
+    font-family: cursive;
+    background-color: rgb(240, 174, 193);
+    font-size: 1rem;
+    border-radius: 25% 0 25% 0;
+    padding: 0.5rem 1rem;
+    margin-left: 15rem;
+    box-shadow: 7px 7px rgb(222, 211, 219);
+    transition: 0.3s, box-shadow 0.3s;
+}
+
+#goBackButton:hover {
+    background: rgb(255, 160, 180);
+    box-shadow: 0 0 20px pink;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideIn {
+    from { transform: translateY(50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
